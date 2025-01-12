@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.testimoniales {
+  background-color: #dfd9d9;
+  width: 100%;
+  min-height: 100vh;
+}
+.container {
+  margin: 0 auto;
+}
+.testimonios {
+  display: grid;
+  /* esta grid tiene q tener 3 columnas */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* separacion */
+  gap: 1rem ;
+  
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+.image-testimonio {
+  border-radius: 3px;
+  width: 100%;
+  height:400px;
+  object-fit: cover;
+  margin-top: 4rem;
+}
